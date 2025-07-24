@@ -4,7 +4,9 @@ Proyek ini bertujuan untuk menganalisis data penjualan dari sebuah kedai kopi un
 
 ## 📁 Struktur Folder
 
-📁 analisis-penjualan-kopi/
+## 📁 analisis-penjualan-kopi/
+
+```
 ├── 📁 data/             (Berisi dataset mentah)
 ├── 📁 notebooks/        (Berisi file notebook analisis .ipynb)
 ├── 📁 outputs/          (Berisi semua hasil visualisasi .png)
@@ -12,7 +14,7 @@ Proyek ini bertujuan untuk menganalisis data penjualan dari sebuah kedai kopi un
 ├── 📄 LICENSE
 ├── 📄 Laporan-Final-Project_Penjualan-Kopi .docx
 └── 📄 README.md
-
+```
 
 ## 🛠️ Tools & Library
 * Python
