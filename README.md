@@ -3,10 +3,9 @@
 Proyek ini bertujuan untuk menganalisis data penjualan dari sebuah kedai kopi untuk menemukan wawasan bisnis dan membangun model machine learning untuk memprediksi total nilai transaksi.
 
 ## 📁 Struktur Folder
-
-## 📁 analisis-penjualan-kopi/
-
 ```
+📁 analisis-penjualan-kopi/
+|
 ├── 📁 data/             (Berisi dataset mentah)
 ├── 📁 notebooks/        (Berisi file notebook analisis .ipynb)
 ├── 📁 outputs/          (Berisi semua hasil visualisasi .png)
