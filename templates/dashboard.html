@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard Penjualan Kopi</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        h1 { color: #4B3621; }
+        .img-container { display: flex; flex-wrap: wrap; gap: 30px; }
+        .img-box { border: 1px solid #ccc; padding: 10px; background: #fafafa; }
+        .img-box img { max-width: 400px; height: auto; display: block; }
+        .img-title { text-align: center; margin-top: 10px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Dashboard Analisis Penjualan Kopi</h1>
+    <div class="img-container">
+        {% for img in images %}
+        <div class="img-box">
+            <img src="{{ url_for('output_file', filename=img) }}" alt="{{ img }}">
+            <div class="img-title">{{ img.replace('_', ' ').replace('.png','').title() }}</div>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
